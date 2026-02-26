@@ -1,0 +1,101 @@
+.form-style{
+    border: 3px solid #000;
+    border-radius: 15px;
+    background: grey;
+    padding: 25px;
+    color: #111;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.form-style {
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.form-style:hover {
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+.form-style .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25);
+}
+
+button[type="submit"] {
+  background-color: #0d6efd;
+  border: none;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0b5ed7;
+}
+
+font-style label{
+    font-weight: bold;
+    color: #000;
+}
+
+.form-style inout{
+    border: qpx solid #333;
+    border-radius:  8px;
+}
+
+.form-style button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #000;
+  border: none;
+}
+
+.form-style button:hover {
+  background-color: #333;
+}
+
+.form-style a {
+  color: #000;
+  text-decoration: none;
+}
+.form-style a:hover {
+  text-decoration: underline;
+}
+
+
+/* register page*/
+.form-card {
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.form-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.form-card .form-control {
+  border-radius: 8px;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+}
+
+.form-card .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.form-card button {
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+.form-card button:hover {
+  background-color: #0b5ed7;
+}
+
+

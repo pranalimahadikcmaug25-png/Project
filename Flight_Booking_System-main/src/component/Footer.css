@@ -1,0 +1,37 @@
+/* Ensure the app fills the viewport */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Make layout flex-based so footer stays at bottom */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make page content expand and push footer down */
+.content {
+  flex: 1;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #0b1e39;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+.footer a {
+  color: #87ceeb;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
